@@ -1,0 +1,173 @@
+.footer{
+    background-color: #95389e;
+    color: #f8b505;
+    padding: 10px 10px;
+}
+
+/* imagem em 90px */
+@media screen and (min-width: 900px){
+    .footer img.logo{
+        position: absolute;
+        left: 61px;
+        top: 1095px;
+        height: 90px;
+        width: 90px;
+}
+}
+
+@media screen and (min-width: 1400px){
+    .footer img.logo{
+        position: absolute;
+        left: 61px;
+        top: 1405px;
+        height: 90px;
+        width: 90px;
+}
+}
+
+.footer-center{
+    float: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer-center a.sub{
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 900px){
+    .footer-right{
+        position: absolute;
+        right: 65px;
+        top: 1130px;
+        font-size: 25px;
+}
+}
+
+@media screen and (min-width: 1400px){
+    .footer-right{
+        position: absolute;
+        right: 65px;
+        top: 1440px;
+        font-size: 25px;
+}
+}
+
+@media screen and (min-width: 900px){
+    .border{
+        position: absolute;
+        left: 60px;
+        top: 150px;
+        min-width: 91%;
+        max-width: 90%;
+        min-height: 130%;
+        max-height: 70%;
+   
+}
+}
+
+@media screen and (min-width: 1400px){
+    .border{
+        position: absolute;
+        left: 60px;
+        top: 150px;
+        min-width: 94.4%;
+        max-width: 90%;
+        min-height: 120.4%;
+        max-height: 70%;
+       
+}
+}
+
+@media screen and (min-width: 900px){
+    .perfil{ 
+        position: relative;
+        width: 500px;
+        height: 750px;
+        padding-top: 90px;
+        padding-left: 150px;
+        max-width: 100%;
+        max-height: 100%;
+        min-width: 9%;
+        min-height: 12%;
+}
+}
+
+@media screen and (min-width: 1400px){
+    .perfil{ 
+        position: relative;
+        width: 750px;
+        height: 1050px;
+        padding-top: 90px;
+        padding-left: 150px;
+        max-width: 100%;
+        max-height: 100%;
+        min-width: 9%;
+        min-height: 12%;
+    }
+    }
+
+@media screen and (min-width: 900px){
+    .letreiro{
+        font-family: 'Righteous', serif;
+        color: #f8b505;
+        font-size: 90px;
+        position: absolute;
+        top: 210px;
+        left: 500px;
+}
+}
+
+@media screen and (min-width: 1400px){
+    .letreiro{
+        font-family: 'Righteous', serif;
+        color: #f8b505;
+        font-size: 150px;
+        position: absolute;
+        top: 200px;
+        left: 650px;
+}
+}
+
+@media screen and (min-width: 900px){
+    .logoL{
+        position: relative;
+        height: 150px;
+        width: 330px;
+        padding-left: 280px;
+        padding-bottom: 500px;
+}
+}
+
+@media screen and (min-width: 1400px){
+    .logoL{
+        position: relative;
+        height: 190px;
+        width: 470px;
+        padding-left: 470px;
+        padding-bottom: 720px;
+}
+}
+
+@media screen and (min-width: 900px){
+    .gabi{
+        font-family: 'Port Lligat Slab', serif;
+        font-size: 23px;
+        position: absolute;
+        top: 470px;
+        left: 699px;
+
+}
+}
+
+@media screen and (min-width: 1400px){
+    .gabi{
+        font-family: 'Port Lligat Slab', serif;
+        font-size: 34px;
+        position: absolute;
+        top: 550px;
+        left: 980px;
+
+}
+}

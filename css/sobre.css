@@ -1,0 +1,32 @@
+.footer{
+    background-color: #95389e;
+    color: #f8b505;
+    padding: 10px 10px;
+}
+
+/* imagem em 120px */
+.footer img.logo{
+    position: absolute;
+    left: 61px;
+    top: 110px;
+    height: 90px;
+    width: 90px;
+}
+
+.footer-center{
+    float: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer-center a.sub{
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-right{
+    position: absolute;
+    right: 65px;
+    top: 1048px;
+    font-size: 25px;
+}
