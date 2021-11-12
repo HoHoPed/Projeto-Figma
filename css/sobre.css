@@ -1,12 +1,4 @@
-/*  FOOTER*/
-.footer{
-    background-color: #95389e;
-    color: #f8b505 !important;
-    padding: 10px 10px;
-    text-decoration: none !important;
-}
-
-/* imagem em 90px */
+/* footer */
 @media screen and (min-width: 550px){
     .footer img.logo{
         position: relative;
@@ -22,7 +14,7 @@
     .footer img.logo{
         position: relative;
         float: left;
-        top: 25px;
+        top: 8px;
         left: 51px;
         height: 90px;
         width: 90px;
@@ -33,105 +25,46 @@
     .footer img.logo{
         position: relative;
         float: left;
-        top: 15px;
+        top: 20px;
         left: 51px;
         height: 90px;
         width: 90px;
 }
 }
 
-.footer-center{
-    float: center;
-    text-align: center;
-    font-size: 25px;
-}
-
-@media screen and (min-width: 550px){
-    .footer a.T{
-        position: relative;
-        left: -20px;
-        font-family: 'Italianno', serif;
-        font-size: 40px;
-        text-decoration: none !important;
-        color: #f8b505 !important;
-}
-}
-
 @media screen and (min-width: 900px){
-    .footer a.T{
-        position: relative;
-        left: -22px;
-        font-family: 'Italianno', serif;
-        font-size: 40px;
+    .footer-center a.sub2{
+     position: relative;
+        left: -15px;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none !important;
         text-decoration: none !important;
         color: #f8b505 !important;
+
 }
 }
 
 @media screen and (min-width: 1400px){
-    .footer a.T{
-        position: relative;
-        left: -24px;
-        font-family: 'Italianno', serif;
-        font-size: 50px;
+    .footer-center a.sub2{
+     position: relative;
+        left: 30px;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none !important;
         text-decoration: none !important;
         color: #f8b505 !important;
-}
-}
-
-.c{
-    text-decoration: none !important;
-    color: #f8b505 !important  
-}
-
-.footer-center a.sub{
-    position: relative;
-    left: -20px;
-    text-align: center;
-    font-size: 15px;
-    text-decoration: none !important;
-    text-decoration: none !important;
-    color: #f8b505 !important;
 
 }
-
-@media screen and (min-width: 550px){
-    .c{
-        position: relative;
-        float: right;
-        top: -40px;
-        right: -8px;
-        font-size: 25px;
 }
-}
-
-@media screen and (min-width: 900px){
-    .c{
-        position: relative;
-        float: right;
-        top: -40px;
-        right: 60px;
-        font-size: 25px;
-}
-}
-
-@media screen and (min-width: 1400px){
-    .c{
-        position: relative;
-        float: right;
-        top: -40px;
-        right: 60px;
-        font-size: 25px;
-}
-}
-/*  FIM DO FOOTER*/
+/* fim do footer */
 
 /* juntar border/perfil/letreiro em um só elemento (photoshop) */
 @media screen and (min-width: 900px){
     .border{
-        position: absolute;
-        left: 60px;
-        top: 150px;
+        position: relative;
+        left: 61px;
+        top: 40px;
         min-width: 91%;
         max-width: 90%;
         min-height: 130%;
@@ -143,11 +76,11 @@
 @media screen and (min-width: 1400px){
     .border{
         position: relative;
-        top: 20px;
+        top: 50px;
         min-width: 94.4%;
         max-width: 90%;
-        min-height: 120.4%;
-        max-height: 70%;
+        min-height: 100%;
+        max-height: 100%;
        
 }
 }
@@ -158,8 +91,8 @@
         color: #f8b505;
         font-size: 90px;
         position: absolute;
-        top: 210px;
-        left: 500px;
+        top: 220px;
+        left: 505px;
 }
 }
 
@@ -169,28 +102,8 @@
         color: #f8b505;
         font-size: 150px;
         position: absolute;
-        top: 240px;
-        left: 682px;
-}
-}
-
-@media screen and (min-width: 900px){
-    .logoL{
-        position: relative;
-        height: 150px;
-        width: 330px;
-        padding-left: 280px;
-        padding-bottom: 500px;
-}
-}
-
-@media screen and (min-width: 1400px){
-    .logoL{
-        position: relative;
-        height: 190px;
-        width: 470px;
-        top: -1750px;
-        left: 1100px;
+        top: 250px;
+        left: 685px;
 }
 }
 
@@ -199,7 +112,7 @@
         font-family: 'Port Lligat Slab', serif;
         font-size: 23px;
         position: absolute;
-        top: 470px;
+        top: 400px;
         left: 699px;
 
 }
@@ -210,7 +123,7 @@
         font-family: 'Port Lligat Slab', serif;
         font-size: 34px;
         position: absolute;
-        top: 550px;
+        top: 510px;
         left: 980px;
 
 }
