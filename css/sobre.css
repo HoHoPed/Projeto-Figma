@@ -3,7 +3,7 @@
     .footer img.logo{
         position: relative;
         float: left;
-        top: 20px;
+        top: 10px;
         left: -10px;
         height: 90px;
         width: 90px;
@@ -60,6 +60,19 @@
 /* fim do footer */
 
 /* juntar border/perfil/letreiro em um só elemento (photoshop) */
+@media screen and (min-width: 550px){
+    .border{
+        position: relative;
+        left: 30px;
+        top: 40px;
+        min-width: 91%;
+        max-width: 90%;
+        min-height: 130%;
+        max-height: 70%;
+   
+}
+}
+
 @media screen and (min-width: 900px){
     .border{
         position: relative;
