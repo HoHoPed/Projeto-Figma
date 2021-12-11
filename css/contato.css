@@ -1,3 +1,5 @@
+
+
 /* footer */
 @media screen and (min-width: 550px){
     .footer img.logo{
@@ -60,7 +62,8 @@
 /* fim do footer */
 /* fim do footer */
 
-.box{
+@media screen and (min-width: 900px){
+    .box{
     position: relative;
     max-width: 90.2%;
     max-height: 500px;
@@ -69,17 +72,21 @@
     border: 6px solid #95389e;
     margin: 20px;
 }
-
-.ct{
-    font-family: 'Righteous', serif;
-    color: #f8b505;
-    font-size: 100px;
-    position: relative;
-    top: -400px;
-    left: 522px;
-
 }
 
+@media screen and (min-width: 1400px){
+    .box{
+        position: relative;
+        max-width: 93%;
+        max-height: 900px;
+        top: 20px;
+        left: 40px;
+        border: 6px solid #95389e;
+        margin: 20px;
+}
+}
+
+@media screen and (min-width: 900px){
 .tema{
     position: relative;
     left: 20px;
@@ -87,10 +94,60 @@
     width: 580px;
     max-width: 100%;
 }
+}
 
+@media screen and (min-width: 1400px){
+    .tema{
+        position: relative;
+        left: 90px;
+        top: 40px;
+        width: 680px;
+        max-width: 100%;
+}
+}
+
+@media screen and (min-width: 900px){
+.ct{
+    font-family: 'Righteous', serif;
+    color: #f8b505;
+    font-size: 100px;
+    position: relative;
+    top: -400px;
+    left: 522px;
+    margin: -90px;
+
+}
+}
+
+@media screen and (min-width: 1400px){
+    .ct{
+        font-family: 'Righteous', serif;
+        color: #f8b505;
+        font-size: 150px;
+        position: relative;
+        top: -360px;
+        left: -380px;
+        margin: -90px;
+        float: right;
+    
+}
+}
+
+@media screen and (min-width: 900px){
 .lg{
     position: relative;
     width: 300px;
     top: -280px;
     left: 360px;
+}
+}
+
+@media screen and (min-width: 1400px){
+    .lg{
+        position: relative;
+        width: 300px;
+        top: -340px;
+        left: -100px;
+        float: right;
+}
 }
