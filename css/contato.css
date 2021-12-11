@@ -62,8 +62,20 @@
 /* fim do footer */
 /* fim do footer */
 
+@media screen and (min-width: 550px){
+.box{
+    position: relative;
+    max-width: 100%;
+    max-height: 500px;
+    top: 0px;
+    left: 0px;
+    border: 6px solid #95389e;
+    margin: 20px;
+}
+}
+
 @media screen and (min-width: 900px){
-    .box{
+.box{
     position: relative;
     max-width: 90.2%;
     max-height: 500px;
@@ -75,14 +87,24 @@
 }
 
 @media screen and (min-width: 1400px){
-    .box{
-        position: relative;
-        max-width: 93%;
-        max-height: 900px;
-        top: 20px;
-        left: 40px;
-        border: 6px solid #95389e;
-        margin: 20px;
+.box{
+    position: relative;
+    max-width: 93%;
+    max-height: 900px;
+    top: 20px;
+    left: 40px;
+    border: 6px solid #95389e;
+    margin: 20px;
+}
+}
+
+@media screen and (min-width: 550px){
+    .tema{
+    position: relative;
+    left: 20px;
+    top: 40px;
+    width: 380px;
+    max-width: 100%;
 }
 }
 
@@ -97,12 +119,26 @@
 }
 
 @media screen and (min-width: 1400px){
-    .tema{
-        position: relative;
-        left: 90px;
-        top: 40px;
-        width: 680px;
-        max-width: 100%;
+.tema{
+    position: relative;
+    left: 90px;
+    top: 40px;
+    width: 680px;
+    max-width: 100%;
+}
+}
+
+@media screen and (min-width: 550px){
+    .ct{
+    font-family: 'Righteous', serif;
+    color: #f8b505;
+    font-size: 70px;
+    position: relative;
+    top: -140px;
+    left: -180px;
+    margin: -90px;
+    float: right;
+    
 }
 }
 
@@ -112,24 +148,35 @@
     color: #f8b505;
     font-size: 100px;
     position: relative;
-    top: -400px;
-    left: 522px;
+    top: -280px;
+    left: -230px;
     margin: -90px;
+    float: right;
 
 }
 }
 
 @media screen and (min-width: 1400px){
-    .ct{
-        font-family: 'Righteous', serif;
-        color: #f8b505;
-        font-size: 150px;
-        position: relative;
-        top: -360px;
-        left: -380px;
-        margin: -90px;
-        float: right;
+.ct{
+    font-family: 'Righteous', serif;
+    color: #f8b505;
+    font-size: 150px;
+    position: relative;
+    top: -360px;
+    left: -380px;
+    margin: -90px;
+    float: right;
     
+}
+}
+
+@media screen and (min-width: 550px){
+    .lg{
+    position: relative;
+    width: 200px;
+    top: -190px;
+    left: -10px;
+    float: right;
 }
 }
 
@@ -137,17 +184,18 @@
 .lg{
     position: relative;
     width: 300px;
-    top: -280px;
-    left: 360px;
+    top: -300px;
+    left: -10px;
+    float: right;
 }
 }
 
 @media screen and (min-width: 1400px){
-    .lg{
-        position: relative;
-        width: 300px;
-        top: -340px;
-        left: -100px;
-        float: right;
+.lg{
+    position: relative;
+    width: 300px;
+    top: -340px;
+    left: -100px;
+    float: right;
 }
 }
